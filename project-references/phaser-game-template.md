@@ -5,15 +5,15 @@ This section provides instructions and starter code to create a Phaser game temp
 **NOTE:** Your Phaser game has to run on a web server, which means you need to have your HTML, CSS, and JS files hosted online. There are several options:
 
 * use an online code editor that allows you to upload asset files \(for images & sounds\), such as:  [repl.it](https://repl.it/), etc.
+* use a desktop code editor and open your HTML file in a web browser \(however, some browsers prevent local JS files from loading - if so, try using Google Chrome\)
 * use a desktop code editor and upload your files to your own web host
 * use a desktop code editor and create a local web server on your computer \([MAMP](https://www.mamp.info/en/), etc.\)
 
 1. Create a new folder for your game containing a new HTML file \(**index.html**\), new CSS file \(**style.css**\), and new JS file \(**code.js**\).  Be sure to give your game folder a unique name.
-   * If you're using Editey, just create a new Editey blank project in Google Drive, which will create a new folder \(called "Blank"\) containing this three files.
-2. Add a copy of Phaser \(**phaser.min.js**\) into the folder. If necessary, [download the latest version of Phaser CE from Phaser.io](http://phaser.io/download/release/2.13.1).
+2. Add a copy of Phaser \(**phaser.min.js**\) into your game folder. If necessary, [download the latest version of Phaser CE from Phaser.io](http://phaser.io/download/release/2.13.1).
    * If you cannot access Phaser.io, you can [download this archived version of Phaser CE](https://drive.google.com/open?id=188YGtmXX2i_ijT0kEP4_7gM9YizExv4a) \(version 2.13.1 — released May 15, 2019\) from Google Drive. Click the download icon to save the file to your computer \(and then add a copy of the file to your game folder in your code editor\).
 3. Inside your game folder, create another folder called **assets** \(for images, sounds, tilemaps, etc.\).
-4. * **RECOMMENDED**: Inside the **assets** folder, create subfolders \(with names such as **images** and **sounds**\) to keep your asset files better organized when creating your own games.
+4. **RECOMMENDED**: Inside the **assets** folder, create subfolders \(with names such as **images** and **sounds**\) to keep your asset files better organized.
    * **EXCEPTION:** For the Practice assignments \(1-5, 1-6, 1-7\), you do not need to create an **assets** folder. Instead, you will download a zip file of a provided **assets** folder, and place the extracted folder \(which will contain image files and sound files\) inside your game folder.
 5. Copy-and-paste the starter code provided below into your blank HTML, CSS, and JS files.  This represents the "bare bones" code needed to create a webpage with a blank Phaser game canvas.
    * If your HTML, CSS, or JS files already have code in them, delete the code, and replace it with the starter code provided below.
@@ -100,13 +100,12 @@ function update() {
 
 ## Troubleshooting
 
-After preparing your Phaser game template, you should see a blank game canvas \(i.e., solid black box\) when you preview your webpage in an online web editor.
+After preparing your Phaser game template, you should see a solid black game canvas when you preview your webpage in an online web editor.
 
-**PHASER NOT LOADING?** If you only see a black outline around a white box \(or see nothing at all\), then Phaser isn't loading correctly. Try these troubleshooting tips:
+**PHASER NOT LOADING?** If you only see a black outline \(or see nothing at all\), then Phaser isn't loading correctly. Try these troubleshooting tips:
 
 * Be sure you downloaded the correct Phaser JS file: **phaser.min.js**
-* Be sure your Phaser JS file is named: **phaser.min.js** — if necessary, rename the file in your game folder to this exact name.
-* Be sure you placed **phaser.min.js** into the same folder that has your HTML, CSS, and JS files. If Phaser is in a different folder \(or inside a subfolder\), it will not load \(unless you modify the `<script>` tag in your HTML file to load Phaser from its correct folder location\).
+* Be sure you placed **phaser.min.js** into the same folder that has your HTML, CSS, and JS files. If Phaser is in a different folder \(or inside a subfolder\), it will not load \(unless you modify the `<script>` tag in your HTML file to load Phaser from its correct location\).
 * Be sure your **index.html** file includes `<script>` tags to load **phaser.min.js** and **code.js** \(in that order\) from your game folder. Also be sure the filename listed in the second HTML `<script>` tag matches the actual name of the JS file containing your game code. For example, instead of **code.js**, you could use a different name for your JS file, such as:  **script.js** or **game.js** \(etc.\)
 * Be sure your **code.js** file lists the command to create a Phaser.Game object and includes the `preload()`, `create()`, and `update()` functions \(must be present even if empty at first\)
 * Be sure your HTML, CSS, and JS files are running on a web server \(such as: Editey web editor in Google Drive, CodePen, Codeanywhere, repl.it, etc.\).
