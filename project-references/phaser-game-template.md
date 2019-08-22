@@ -4,7 +4,7 @@ This section provides instructions and starter code to create a Phaser game temp
 
 **NOTE:** Your Phaser game has to run on a web server, which means you need to have your HTML, CSS, and JS files hosted online. There are several options:
 
-* use an online code editor that allows you to upload files \(for images & sounds\), such as:  [Editey](http://www.editey.com/) app for Google Drive, [repl.it](https://repl.it/), Codeanywhere, etc.
+* use an online code editor that allows you to upload asset files \(for images & sounds\), such as:  [repl.it](https://repl.it/), etc.
 * use a desktop code editor and upload your files to your own web host
 * use a desktop code editor and create a local web server on your computer \([MAMP](https://www.mamp.info/en/), etc.\)
 
