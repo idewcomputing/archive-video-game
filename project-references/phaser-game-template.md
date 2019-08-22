@@ -2,7 +2,11 @@
 
 This section provides instructions and starter code to create a Phaser game template \(HTML, CSS, and JS files with starter code\).
 
-**NOTE:** Your Phaser game has to run on a web server, which means you need to have your HTML, CSS, and JS files hosted online. One easy option is to connect the [Editey](http://www.editey.com/) web editor app to your Google Drive account, which will allow you to create and run websites and web apps in Drive. Other options include: using another online web editor \(Repl.it, CodePen, Codeanywhere, etc.\), uploading the files to your own web host, or creating a local web server on your computer.
+**NOTE:** Your Phaser game has to run on a web server, which means you need to have your HTML, CSS, and JS files hosted online. There are several options:
+
+* use an online code editor that allows you to upload files \(for images & sounds\), such as:  [Editey](http://www.editey.com/) app for Google Drive, [repl.it](https://repl.it/), Codeanywhere, etc.
+* use a desktop code editor and upload your files to your own web host
+* use a desktop code editor and create a local web server on your computer \([MAMP](https://www.mamp.info/en/), etc.\)
 
 1. Create a new folder for your game containing a new HTML file \(**index.html**\), new CSS file \(**style.css**\), and new JS file \(**code.js**\).  Be sure to give your game folder a unique name.
    * If you're using Editey, just create a new Editey blank project in Google Drive, which will create a new folder \(called "Blank"\) containing this three files.
