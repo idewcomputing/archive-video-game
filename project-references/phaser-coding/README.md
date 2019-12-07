@@ -26,7 +26,7 @@ The following Phaser coding references are provided in this GitBook:
 There are many other Phaser references, examples, and tutorials available online. Here's some you may find particularly useful:
 
 * [Phaser CE API documentation](https://photonstorm.github.io/phaser-ce/) \(provides details for every Phaser CE command\)
-* [Phaser CE code examples on Phaser.io](http://phaser.io/examples) \(Phaser 2 = Phaser CE\)
+* [Phaser CE code examples on Phaser.io](https://phaser.io/examples/v2) \(Phaser 2 = Phaser CE\)
 * [Phaser CE code examples on CodePen](https://codepen.io/collection/AMbZgY/)
 * [Phaser community tutorials on Phaser.io](http://phaser.io/news/category/tutorial) \(older examples prior to 2018 use Phaser 2, but newer examples use Phaser 3\)
 * [Phaser game examples by Emanuele Feronato](http://www.emanueleferonato.com/category/phaser/) \(her older examples prior to 2018 use Phaser 2, but newer examples use Phaser 3\)
